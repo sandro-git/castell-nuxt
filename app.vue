@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav>
-      <div class="image-container">
+      <div>
         <nuxt-link href="./index.html">
           <nuxt-img 
             src="/logo.png" 
@@ -9,13 +9,25 @@
           />
         </nuxt-link>
       </div>
-      <div class="onglets">
-        <a href="">Home</a>
-        <a href="./menu_card.html">Menus</a>
-        <a href="./wine_card.html">Vins</a>
-        <a href="./drinks.html">Cocktails et Boissons</a>
-        <a href="./photos.html">Photos</a>
-        <a href="./contact">Contact</a>
+      <div>
+        <nuxt-link href="">
+          Home
+        </nuxt-link>
+        <nuxt-link href="./menu_card.html">
+          Menus
+        </nuxt-link>
+        <nuxt-link href="./wine_card.html">
+          Vins
+        </nuxt-link>
+        <nuxt-link href="./drinks.html">
+          Cocktails et Boissons
+        </nuxt-link>
+        <nuxt-link href="./photos.html">
+          Photos
+        </nuxt-link>
+        <nuxt-link href="./contact">
+          Contact
+        </nuxt-link>
       </div>
     </nav>
 
@@ -27,34 +39,28 @@
     <main>
       <div class="slideshow-container">
         <div class="slide active">
-          <img src="./ressources/salade.jpg">
-          <div class="box">
-            <p>Salade de saison</p>
-          </div>
+          <nuxt-img src="/salade.jpg">
+            <div class="box">
+              <p>Salade de saison</p>
+            </div>
+          </nuxt-img>
         </div>
                 
         <div class="slide">
-          <img src="./ressources/viande.jpg">
-          <div class="box">
-            <p>Brochette de viandes</p>
-          </div>
+          <nuxt-img src="/viande.jpg">
+            <div class="box">
+              <p>Brochette de viandes</p>
+            </div>
+          </nuxt-img>
         </div>
                 
         <div class="slide">
-          <img src="./ressources/dessert.jpg">
-          <div class="box">
-            <p>Crème catalane</p>
-          </div>
+          <nuxt-img src="/dessert.jpg">
+            <div class="box">
+              <p>Crème catalane</p>
+            </div>
+          </nuxt-img>
         </div>
-                
-        <a
-          class="prev"
-          onclick="prevSlide()"
-        >&#10094;</a>
-        <a
-          class="next"
-          onclick="nextSlide()"
-        >&#10095;</a>
       </div>
     </main>
 

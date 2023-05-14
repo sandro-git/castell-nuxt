@@ -1,12 +1,12 @@
 <template>
   <div>
-    <nav>
+    <nav class=" bg-yellow-500">
       <div
         class="flex justify-center items-center"
       >
         <nuxt-link
           to="/"
-          class="w-1/6     block m-4 "
+          class="w-1/12 block m-4 "
         >
           <nuxt-img 
             src="/logo.png" 
@@ -36,9 +36,9 @@
       </div>
     </nav>
 
-    <header class="bg-hero-pattern bg-contain h-96 text-center text-white flex flex-col justify-evenly">
+    <header class="bg-hero-pattern bg-center bg-cover bg-no-repeat  h-screen text-center text-white flex flex-col justify-center">
       <h1
-        class="text-3xl font-bold"
+        class="text-8xl font-bold"
       >
         Bienvenue
       </h1>

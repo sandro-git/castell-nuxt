@@ -11,7 +11,7 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
-                "hero-pattern": "url('/public/front.jpg')",
+                "hero-pattern": "linear-gradient(to right bottom, rgba(226, 232, 240, 0.7), rgba(226, 232, 240, 0)),url('/public/front.jpg')",
             }
         },
     },

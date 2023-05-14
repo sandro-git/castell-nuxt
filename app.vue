@@ -1,39 +1,50 @@
 <template>
   <div>
     <nav>
-      <div>
-        <nuxt-link href="./index.html">
+      <div
+        class="flex justify-center items-center"
+      >
+        <nuxt-link
+          to="/"
+          class="w-1/6     block m-4 "
+        >
           <nuxt-img 
             src="/logo.png" 
             alt="Le Castell"
           />
         </nuxt-link>
       </div>
-      <div>
-        <nuxt-link href="">
+      <div class="flex justify-around w-1/2 mx-auto">
+        <nuxt-link to="/">
           Home
         </nuxt-link>
-        <nuxt-link href="./menu_card.html">
+        <nuxt-link to="./menu_card.html">
           Menus
         </nuxt-link>
-        <nuxt-link href="./wine_card.html">
+        <nuxt-link to="./wine_card.html">
           Vins
         </nuxt-link>
-        <nuxt-link href="./drinks.html">
+        <nuxt-link to="./drinks.html">
           Cocktails et Boissons
         </nuxt-link>
-        <nuxt-link href="./photos.html">
+        <nuxt-link to="./photos.html">
           Photos
         </nuxt-link>
-        <nuxt-link href="./contact">
+        <nuxt-link to="./contact">
           Contact
         </nuxt-link>
       </div>
     </nav>
 
-    <header>
-      <h1>Bienvenue</h1>
-      <h4>Ouvert tous les jours à partir de 19h30</h4>
+    <header class="">
+      <h1
+        class="text-3xl font-bold text-center"
+      >
+        Bienvenue
+      </h1>
+      <h4 class=" text-xl text-center">
+        Ouvert tous les jours à partir de 19h30
+      </h4>
     </header>
 
     <main>
@@ -55,7 +66,7 @@
         </div>
                 
         <div class="slide">
-          <nuxt-img src="/dessert.jpg">
+          <nuxt-img src="/dessert-1.jpg">
             <div class="box">
               <p>Crème catalane</p>
             </div>

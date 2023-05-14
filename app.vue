@@ -47,31 +47,38 @@
       </h4>
     </header>
 
-    <main>
-      <div class="slideshow-container">
-        <div class="slide active">
-          <nuxt-img src="/salade.jpg">
-            <div class="box">
-              <p>Salade de saison</p>
-            </div>
-          </nuxt-img>
-        </div>
+    <main class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="grid gap-4">
+        <nuxt-img
+          src="/salade.jpg"
+          class="h-auto max-w-full rounded-lg"
+        >
+          <div class="box">
+            <p>Salade de saison</p>
+          </div>
+        </nuxt-img>
+      </div>
                 
-        <div class="slide">
-          <nuxt-img src="/viande.jpg">
-            <div class="box">
-              <p>Brochette de viandes</p>
-            </div>
-          </nuxt-img>
-        </div>
+      <div class="grid gap-4">
+        <nuxt-img
+          src="/viande.jpg"
+          class="h-auto max-w-full rounded-lg"
+        >
+          <div class="box">
+            <p>Brochette de viandes</p>
+          </div>
+        </nuxt-img>
+      </div>
                 
-        <div class="slide">
-          <nuxt-img src="/dessert-1.jpg">
-            <div class="box">
-              <p>Crème catalane</p>
-            </div>
-          </nuxt-img>
-        </div>
+      <div class="grid gap-4">
+        <nuxt-img
+          src="/dessert-1.jpg"
+          class="h-auto max-w-full rounded-lg"
+        >
+          <div class="box">
+            <p>Crème catalane</p>
+          </div>
+        </nuxt-img>
       </div>
     </main>
 

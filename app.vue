@@ -36,9 +36,9 @@
       </div>
     </nav>
 
-    <header class="">
+    <header class="bg-hero-pattern bg-contain h-96 text-center text-white flex flex-col justify-evenly">
       <h1
-        class="text-3xl font-bold text-center"
+        class="text-3xl font-bold"
       >
         Bienvenue
       </h1>

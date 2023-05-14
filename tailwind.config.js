@@ -9,7 +9,11 @@ module.exports = {
         "./app.vue",
     ],
     theme: {
-        extend: {},
+        extend: {
+            backgroundImage: {
+                "hero-pattern": "url('/public/front.jpg')",
+            }
+        },
     },
     plugins: [],
 }
